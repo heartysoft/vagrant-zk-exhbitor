@@ -1,0 +1,4 @@
+.vagrant/
+/exhibitor.properties
+/zookeeper
+
