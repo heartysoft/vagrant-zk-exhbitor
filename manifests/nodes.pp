@@ -25,8 +25,8 @@ node 'zoo1', 'zoo2', 'zoo3' {
             'com.netflix.exhibitor.zookeeper-install-directory' => '/usr/local/zookeeper',
             'com.netflix.exhibitor-rolling.zookeeper-install-directory' => '/usr/local/zookeeper',
             'com.netflix.exhibitor-rolling.zookeeper-log-directory' => '/var/log/zookeeper',
-            'com.netflix.exhibitor-rolling.servers-spec' => "S:1:$zoo1,S:2:$zoo2,S:3:$zoo3",
-            'com.netflix.exhibitor.servers-spec' => "S:1:$zoo1,S:2:$zoo2,S:3:$zoo3",
+            'com.netflix.exhibitor-rolling.servers-spec' => "S:1:$zoo1",
+            'com.netflix.exhibitor.servers-spec' => "S:1:$zoo1",
 		}
 	}
 }

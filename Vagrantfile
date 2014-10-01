@@ -5,7 +5,7 @@
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  (1..3).each do |i|
+  (1..1).each do |i|
     config.vm.define "zoo#{i}" do |c|
       
       c.vm.box = "hashicorp/precise64"
