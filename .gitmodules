@@ -10,3 +10,6 @@
 [submodule "modules/zookeeper"]
 	path = modules/zookeeper
 	url = https://github.com/heartysoft/puppet-zookeeper
+[submodule "modules/zkui"]
+	path = modules/zkui
+	url = https://github.com/heartysoft/puppet-zkui
